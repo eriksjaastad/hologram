@@ -1,0 +1,30 @@
+{
+  "name": "hologram",
+  "version": "0.1.0-alpha",
+  "description": "A white-label AI Agent Operating System with soul",
+  "main": "src/main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "NODE_ENV=development electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "electron",
+    "ai",
+    "chat",
+    "desktop",
+    "local-first"
+  ],
+  "author": "Erik Sjaastad",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^39.2.7"
+  },
+  "dependencies": {
+    "three": "^0.182.0"
+  }
+}
